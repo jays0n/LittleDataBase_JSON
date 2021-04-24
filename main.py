@@ -49,7 +49,7 @@ def checkKeys(key,dictA):
 
 class manageJsonBd:
     #ATENÇÃO - Todos os metodos Update podem ocasionar sobrescrição de dados
-    #Pay attention: All Update methods might cause data sobrescription.
+    #Pay attention: All Update methods might cause data subscription.
     def __init__(self,filePath):
         self.pathFile=filePath
         self.createDataBase()
